@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="509.0" prefWidth="618.0" style="-fx-background-color: #bfcba8;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.LoginController">
+    <children>
+      <Label fx:id="info_label" layoutX="378.0" layoutY="28.0" />
+      <TextField fx:id="username_field" layoutX="380.0" layoutY="58.0" promptText="UserName/Email" style="-fx-background-color: #dddbf2;" />
+      <PasswordField fx:id="password_field" layoutX="380.0" layoutY="116.0" promptText="Password" style="-fx-background-color: #dddbf2;" />
+      <CheckBox fx:id="remember_me_checkbox" layoutX="407.0" layoutY="173.0" mnemonicParsing="false" style="-fx-background-color: #a1d0c4;" text="Remember Me" textAlignment="CENTER" textFill="#3f3c65" />
+      <Button alignment="CENTER" layoutX="432.0" layoutY="221.0" mnemonicParsing="false" onAction="#login" text="Login" textFill="#392529" />
+      <Hyperlink contentDisplay="CENTER" layoutX="403.0" layoutY="278.0" text="Forgot Password ?" textAlignment="CENTER" textFill="#021b14" />
+      <Hyperlink alignment="CENTER" layoutX="341.0" layoutY="334.0" onAction="#goto_signup" text="Don't have an Account, Create a new one " textAlignment="CENTER" textFill="#021b14" />
+      <Hyperlink alignment="CENTER" layoutX="401.0" layoutY="389.0" prefHeight="23.0" prefWidth="111.0" text="Friendly_Enquiries" textAlignment="CENTER" textFill="#021b14" />
+      <AnchorPane prefHeight="509.0" prefWidth="280.0" style="-fx-background-color: #648E64; -fx-border-color: #1a52a1;">
+         <effect>
+            <Blend />
+         </effect>
+         <children>
+            <ImageView fitHeight="509.0" fitWidth="280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="562.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.CreateRoomController">
+   <children>
+      <TextField fx:id="roomname_field" layoutX="269.0" layoutY="219.0" promptText="room name" />
+      <Button layoutX="445.0" layoutY="219.0" mnemonicParsing="false" onAction="#create_room" text="Create" />
+   </children>
+</AnchorPane>

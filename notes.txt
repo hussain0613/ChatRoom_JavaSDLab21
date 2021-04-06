@@ -1,0 +1,46 @@
+bug fixes
+##############
+#### DONE ####
+############## 
+sign up, login/sign in, create room, invite, check invites, accept/reject invites, messaging, leave room, delete room, delete account, 
+username/email validation
+
+these basic things are done
+
+back to 'mediator' pattern
+
+setupdb package let's you set up your database, i.e. create all tables and save connection details to config file, throug a minmalist gui
+
+gui2 package is main client chatroom gui
+
+learningDBC package is the main database manipulation backend functions
+
+
+##################
+#### NOT DONE ####
+##################
+
+password hashing, secure remember me, forget password, email verification, remove member, make admin, admin permission etc are not done yet
+
+
+##############
+#### BUGS ####
+##############
+none that i know of now.. :D
+
+###############
+#### FIXES ####
+###############
+notification for self messages..
+double messages for the sender..
+** resource consuption like virus
+
+
+####################
+#### SHOULD ADD ####
+####################
+all the things listed above in not done section 
++
+notification to dissolve when manually scrolled down to view new incoming msg of others
+also info_label should work better.
+and may be some styling.. 

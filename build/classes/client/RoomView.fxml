@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="554.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.RoomViewController">
+   <children>
+      <ScrollPane fx:id="display" layoutX="1.0" prefHeight="462.0" prefWidth="615.0" />
+      <ScrollPane fx:id="room_nav" layoutX="616.0" prefHeight="554.0" prefWidth="143.0" />
+      <TextArea fx:id="chatbox" layoutY="461.0" prefHeight="94.0" prefWidth="550.0" />
+      <Button layoutX="550.0" layoutY="461.0" mnemonicParsing="false" onAction="#send_message" prefHeight="94.0" prefWidth="68.0" text="Send" />
+   </children>
+</AnchorPane>

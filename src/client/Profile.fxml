@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="554.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ProfileController">
+   <children>
+      <Label fx:id="info_label" layoutX="373.0" layoutY="98.0" />
+      <Label layoutX="266.0" layoutY="156.0" text="Name:" />
+      <TextField fx:id="name_field" editable="false" layoutX="350.0" layoutY="152.0" />
+      <Label layoutX="266.0" layoutY="212.0" text="Username:" />
+      <TextField fx:id="username_field" editable="false" layoutX="350.0" layoutY="208.0" />
+      <Label fx:id="email_lbl" layoutX="266.0" layoutY="267.0" text="Email:" />
+      <TextField fx:id="email_field" editable="false" layoutX="350.0" layoutY="263.0" />
+      <Label fx:id="psd_lbl" layoutX="266.0" layoutY="324.0" text="Password:" />
+      <PasswordField fx:id="password_field" editable="false" layoutX="349.0" layoutY="322.0" />
+      <PasswordField fx:id="confirm_password_field" layoutX="350.0" layoutY="444.0" promptText="confirm with old password" visible="false" />
+      <Button fx:id="multi_purpose_button" layoutX="461.0" layoutY="358.0" mnemonicParsing="false" onAction="#edit" text="Edit" />
+      <Button fx:id="dlt_acnt_btn" layoutX="266.0" layoutY="358.0" mnemonicParsing="false" onAction="#delete_account" text="Delete Account" />
+      <Button fx:id="confirm_button" layoutX="438.0" layoutY="478.0" mnemonicParsing="false" onAction="#confirm_edit" text="Confirm" visible="false" />
+   </children>
+</AnchorPane>
